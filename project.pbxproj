@@ -18,6 +18,10 @@
 		95282CCC2BADE59300DC634B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CCB2BADE59300DC634B /* UserCell.swift */; };
 		95282CCE2BAF24FB00DC634B /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CCD2BAF24FB00DC634B /* NotificationsView.swift */; };
 		95282CD02BAF251200DC634B /* NotificationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CCF2BAF251200DC634B /* NotificationsCell.swift */; };
+		95282CD22BAF2BE700DC634B /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CD12BAF2BE700DC634B /* CurrentUserProfileView.swift */; };
+		95282CD42BAF2D5200DC634B /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CD32BAF2D5200DC634B /* ProfileHeaderView.swift */; };
+		95282CD62BAF2D9900DC634B /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CD52BAF2D9900DC634B /* PostGridView.swift */; };
+		95282CDA2BAF343400DC634B /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CD92BAF343400DC634B /* UserStatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		95282CCB2BADE59300DC634B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		95282CCD2BAF24FB00DC634B /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		95282CCF2BAF251200DC634B /* NotificationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsCell.swift; sourceTree = "<group>"; };
+		95282CD12BAF2BE700DC634B /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		95282CD32BAF2D5200DC634B /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		95282CD52BAF2D9900DC634B /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		95282CD92BAF343400DC634B /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +181,9 @@
 		95282CBD2BACAB6F00DC634B /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				95282CD82BAF33DF00DC634B /* View */,
+				95282CD72BAF33C400DC634B /* Components */,
+				95282CD12BAF2BE700DC634B /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -214,6 +225,23 @@
 			children = (
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		95282CD72BAF33C400DC634B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				95282CD32BAF2D5200DC634B /* ProfileHeaderView.swift */,
+				95282CD52BAF2D9900DC634B /* PostGridView.swift */,
+				95282CD92BAF343400DC634B /* UserStatsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		95282CD82BAF33DF00DC634B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,12 +316,16 @@
 			files = (
 				95282CC62BADD6D400DC634B /* FeedView.swift in Sources */,
 				95282CC82BADD93500DC634B /* FeedCell.swift in Sources */,
+				95282CD42BAF2D5200DC634B /* ProfileHeaderView.swift in Sources */,
 				95282CA62BACAAAA00DC634B /* ContentView.swift in Sources */,
+				95282CDA2BAF343400DC634B /* UserStatsView.swift in Sources */,
 				95282CA42BACAAAA00DC634B /* Tiktok_CLoneApp.swift in Sources */,
 				95282CCA2BADE56800DC634B /* ExploreView.swift in Sources */,
 				95282CC42BADCFD100DC634B /* MainTabView.swift in Sources */,
 				95282CCC2BADE59300DC634B /* UserCell.swift in Sources */,
+				95282CD62BAF2D9900DC634B /* PostGridView.swift in Sources */,
 				95282CD02BAF251200DC634B /* NotificationsCell.swift in Sources */,
+				95282CD22BAF2BE700DC634B /* CurrentUserProfileView.swift in Sources */,
 				95282CCE2BAF24FB00DC634B /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

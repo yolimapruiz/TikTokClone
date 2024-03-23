@@ -14,6 +14,10 @@
 		95282CC42BADCFD100DC634B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CC32BADCFD100DC634B /* MainTabView.swift */; };
 		95282CC62BADD6D400DC634B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CC52BADD6D400DC634B /* FeedView.swift */; };
 		95282CC82BADD93500DC634B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CC72BADD93500DC634B /* FeedCell.swift */; };
+		95282CCA2BADE56800DC634B /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CC92BADE56800DC634B /* ExploreView.swift */; };
+		95282CCC2BADE59300DC634B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CCB2BADE59300DC634B /* UserCell.swift */; };
+		95282CCE2BAF24FB00DC634B /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CCD2BAF24FB00DC634B /* NotificationsView.swift */; };
+		95282CD02BAF251200DC634B /* NotificationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CCF2BAF251200DC634B /* NotificationsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		95282CC32BADCFD100DC634B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		95282CC52BADD6D400DC634B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		95282CC72BADD93500DC634B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		95282CC92BADE56800DC634B /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		95282CCB2BADE59300DC634B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		95282CCD2BAF24FB00DC634B /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		95282CCF2BAF251200DC634B /* NotificationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,8 @@
 		95282CBB2BACAB6C00DC634B /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				95282CC92BADE56800DC634B /* ExploreView.swift */,
+				95282CCB2BADE59300DC634B /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -170,6 +180,8 @@
 		95282CBE2BACAB7100DC634B /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				95282CCD2BAF24FB00DC634B /* NotificationsView.swift */,
+				95282CCF2BAF251200DC634B /* NotificationsCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -278,7 +290,11 @@
 				95282CC82BADD93500DC634B /* FeedCell.swift in Sources */,
 				95282CA62BACAAAA00DC634B /* ContentView.swift in Sources */,
 				95282CA42BACAAAA00DC634B /* Tiktok_CLoneApp.swift in Sources */,
+				95282CCA2BADE56800DC634B /* ExploreView.swift in Sources */,
 				95282CC42BADCFD100DC634B /* MainTabView.swift in Sources */,
+				95282CCC2BADE59300DC634B /* UserCell.swift in Sources */,
+				95282CD02BAF251200DC634B /* NotificationsCell.swift in Sources */,
+				95282CCE2BAF24FB00DC634B /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

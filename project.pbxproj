@@ -22,6 +22,9 @@
 		95282CD42BAF2D5200DC634B /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CD32BAF2D5200DC634B /* ProfileHeaderView.swift */; };
 		95282CD62BAF2D9900DC634B /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CD52BAF2D9900DC634B /* PostGridView.swift */; };
 		95282CDA2BAF343400DC634B /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95282CD92BAF343400DC634B /* UserStatsView.swift */; };
+		958A76DC2BB078D0006CACBE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A76DB2BB078D0006CACBE /* Post.swift */; };
+		958A76E12BB07979006CACBE /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A76E02BB07979006CACBE /* FeedViewModel.swift */; };
+		958A76E32BB0D141006CACBE /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A76E22BB0D141006CACBE /* CustomVideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		95282CD32BAF2D5200DC634B /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		95282CD52BAF2D9900DC634B /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		95282CD92BAF343400DC634B /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		958A76DB2BB078D0006CACBE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		958A76E02BB07979006CACBE /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		958A76E22BB0D141006CACBE /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 		95282CB52BACAAF600DC634B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				958A76DB2BB078D0006CACBE /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -128,7 +135,6 @@
 				95282CC12BACAB7800DC634B /* Coments */,
 				95282CC02BACAB7600DC634B /* Components */,
 				95282CBF2BACAB7300DC634B /* Feed */,
-				95282CBE2BACAB7100DC634B /* Notifications */,
 				95282CBD2BACAB6F00DC634B /* Profile */,
 				95282CBC2BACAB6D00DC634B /* Root */,
 				95282CBB2BACAB6C00DC634B /* Search */,
@@ -200,8 +206,9 @@
 		95282CBF2BACAB7300DC634B /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				95282CC52BADD6D400DC634B /* FeedView.swift */,
-				95282CC72BADD93500DC634B /* FeedCell.swift */,
+				958A76DF2BB0792F006CACBE /* ViewModel */,
+				958A76DE2BB0791A006CACBE /* View */,
+				958A76DD2BB07913006CACBE /* Service */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -209,6 +216,7 @@
 		95282CC02BACAB7600DC634B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				958A76E22BB0D141006CACBE /* CustomVideoPlayer.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -242,6 +250,31 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		958A76DD2BB07913006CACBE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				95282CBE2BACAB7100DC634B /* Notifications */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		958A76DE2BB0791A006CACBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95282CC52BADD6D400DC634B /* FeedView.swift */,
+				95282CC72BADD93500DC634B /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		958A76DF2BB0792F006CACBE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				958A76E02BB07979006CACBE /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,10 +348,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				95282CC62BADD6D400DC634B /* FeedView.swift in Sources */,
+				958A76E32BB0D141006CACBE /* CustomVideoPlayer.swift in Sources */,
 				95282CC82BADD93500DC634B /* FeedCell.swift in Sources */,
 				95282CD42BAF2D5200DC634B /* ProfileHeaderView.swift in Sources */,
 				95282CA62BACAAAA00DC634B /* ContentView.swift in Sources */,
 				95282CDA2BAF343400DC634B /* UserStatsView.swift in Sources */,
+				958A76E12BB07979006CACBE /* FeedViewModel.swift in Sources */,
+				958A76DC2BB078D0006CACBE /* Post.swift in Sources */,
 				95282CA42BACAAAA00DC634B /* Tiktok_CLoneApp.swift in Sources */,
 				95282CCA2BADE56800DC634B /* ExploreView.swift in Sources */,
 				95282CC42BADCFD100DC634B /* MainTabView.swift in Sources */,

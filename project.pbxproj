@@ -60,6 +60,7 @@
 		958A772B2BB33358006CACBE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A772A2BB33358006CACBE /* AuthService.swift */; };
 		958A772D2BB334B0006CACBE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A772C2BB334B0006CACBE /* LoginViewModel.swift */; };
 		958A772F2BB33AF7006CACBE /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A772E2BB33AF7006CACBE /* RegistrationViewModel.swift */; };
+		958A77312BB37D5D006CACBE /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A77302BB37D5D006CACBE /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		958A772A2BB33358006CACBE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		958A772C2BB334B0006CACBE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		958A772E2BB33AF7006CACBE /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		958A77302BB37D5D006CACBE /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				95282CA52BACAAAA00DC634B /* ContentView.swift */,
+				958A77302BB37D5D006CACBE /* ContentViewModel.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -506,6 +509,7 @@
 				95282CA62BACAAAA00DC634B /* ContentView.swift in Sources */,
 				958A76EE2BB1EF7C006CACBE /* StandardTextFieldModifier.swift in Sources */,
 				958A772B2BB33358006CACBE /* AuthService.swift in Sources */,
+				958A77312BB37D5D006CACBE /* ContentViewModel.swift in Sources */,
 				95282CDA2BAF343400DC634B /* UserStatsView.swift in Sources */,
 				958A76E12BB07979006CACBE /* FeedViewModel.swift in Sources */,
 				958A76DC2BB078D0006CACBE /* Post.swift in Sources */,

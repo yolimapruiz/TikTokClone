@@ -57,6 +57,9 @@
 		958A77252BB32AC6006CACBE /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 958A77242BB32AC6006CACBE /* FirebaseRemoteConfigSwift */; };
 		958A77272BB32AC6006CACBE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 958A77262BB32AC6006CACBE /* FirebaseStorage */; };
 		958A77292BB32AC6006CACBE /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 958A77282BB32AC6006CACBE /* FirebaseStorageCombine-Community */; };
+		958A772B2BB33358006CACBE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A772A2BB33358006CACBE /* AuthService.swift */; };
+		958A772D2BB334B0006CACBE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A772C2BB334B0006CACBE /* LoginViewModel.swift */; };
+		958A772F2BB33AF7006CACBE /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A772E2BB33AF7006CACBE /* RegistrationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +87,9 @@
 		958A76ED2BB1EF7C006CACBE /* StandardTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTextFieldModifier.swift; sourceTree = "<group>"; };
 		958A76EF2BB31799006CACBE /* AuthenticationFormProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFormProtocol.swift; sourceTree = "<group>"; };
 		958A76F12BB3286D006CACBE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		958A772A2BB33358006CACBE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		958A772C2BB334B0006CACBE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		958A772E2BB33AF7006CACBE /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,6 +357,8 @@
 		958A76E42BB1E840006CACBE /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				958A772C2BB334B0006CACBE /* LoginViewModel.swift */,
+				958A772E2BB33AF7006CACBE /* RegistrationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -367,6 +375,7 @@
 		958A76E62BB1E850006CACBE /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				958A772A2BB33358006CACBE /* AuthService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -491,15 +500,18 @@
 			files = (
 				95282CC62BADD6D400DC634B /* FeedView.swift in Sources */,
 				958A76E32BB0D141006CACBE /* CustomVideoPlayer.swift in Sources */,
+				958A772D2BB334B0006CACBE /* LoginViewModel.swift in Sources */,
 				95282CC82BADD93500DC634B /* FeedCell.swift in Sources */,
 				95282CD42BAF2D5200DC634B /* ProfileHeaderView.swift in Sources */,
 				95282CA62BACAAAA00DC634B /* ContentView.swift in Sources */,
 				958A76EE2BB1EF7C006CACBE /* StandardTextFieldModifier.swift in Sources */,
+				958A772B2BB33358006CACBE /* AuthService.swift in Sources */,
 				95282CDA2BAF343400DC634B /* UserStatsView.swift in Sources */,
 				958A76E12BB07979006CACBE /* FeedViewModel.swift in Sources */,
 				958A76DC2BB078D0006CACBE /* Post.swift in Sources */,
 				95282CA42BACAAAA00DC634B /* Tiktok_CLoneApp.swift in Sources */,
 				95282CCA2BADE56800DC634B /* ExploreView.swift in Sources */,
+				958A772F2BB33AF7006CACBE /* RegistrationViewModel.swift in Sources */,
 				958A76F02BB31799006CACBE /* AuthenticationFormProtocol.swift in Sources */,
 				958A76EA2BB1E895006CACBE /* LoginView.swift in Sources */,
 				95282CC42BADCFD100DC634B /* MainTabView.swift in Sources */,

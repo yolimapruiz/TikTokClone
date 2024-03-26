@@ -28,6 +28,7 @@
 		958A76EA2BB1E895006CACBE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A76E92BB1E895006CACBE /* LoginView.swift */; };
 		958A76EC2BB1E8A4006CACBE /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A76EB2BB1E8A4006CACBE /* RegistrationView.swift */; };
 		958A76EE2BB1EF7C006CACBE /* StandardTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A76ED2BB1EF7C006CACBE /* StandardTextFieldModifier.swift */; };
+		958A76F02BB31799006CACBE /* AuthenticationFormProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958A76EF2BB31799006CACBE /* AuthenticationFormProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		958A76E92BB1E895006CACBE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		958A76EB2BB1E8A4006CACBE /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		958A76ED2BB1EF7C006CACBE /* StandardTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTextFieldModifier.swift; sourceTree = "<group>"; };
+		958A76EF2BB31799006CACBE /* AuthenticationFormProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationFormProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +317,7 @@
 		958A76E72BB1E854006CACBE /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				958A76EF2BB31799006CACBE /* AuthenticationFormProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				958A76DC2BB078D0006CACBE /* Post.swift in Sources */,
 				95282CA42BACAAAA00DC634B /* Tiktok_CLoneApp.swift in Sources */,
 				95282CCA2BADE56800DC634B /* ExploreView.swift in Sources */,
+				958A76F02BB31799006CACBE /* AuthenticationFormProtocol.swift in Sources */,
 				958A76EA2BB1E895006CACBE /* LoginView.swift in Sources */,
 				95282CC42BADCFD100DC634B /* MainTabView.swift in Sources */,
 				95282CCC2BADE59300DC634B /* UserCell.swift in Sources */,

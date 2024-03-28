@@ -264,7 +264,6 @@
 			children = (
 				95282CD82BAF33DF00DC634B /* View */,
 				95282CD72BAF33C400DC634B /* Components */,
-				95282CD12BAF2BE700DC634B /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -328,6 +327,7 @@
 		95282CD82BAF33DF00DC634B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				95282CD12BAF2BE700DC634B /* CurrentUserProfileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
